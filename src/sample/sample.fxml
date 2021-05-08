@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="center" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+
+
+    <TextArea fx:id="textarea" editable="false" prefHeight="191.0" prefWidth="388.0" />
+
+
+    <TextField fx:id="textfield" prefHeight="26.0" prefWidth="444.0" />
+
+    <Button fx:id="btn" defaultButton="true" onAction="#btnClicked" text="Отправить" />
+</VBox>
